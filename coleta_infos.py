@@ -57,7 +57,7 @@ def dict_NPCs(npcs, vida, dano):
     personagens = []
     index = 0
     for personagem in npcs:
-        personagem = {'Nome': npcs[index], 'Vida': vida[index], 'Dano':dano[index]}
+        personagem = {'Nome': npcs[index], 'Vida': vida[index], 'Dano':dano[index], 'Score': 1000}
         personagens.append(personagem)
         index += 1
     
