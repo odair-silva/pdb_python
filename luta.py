@@ -6,9 +6,9 @@ def lutar(jogador, personagens, inimigo, amigo):
     tela_infos(jogador, personagens)
     inimigo_vivo, amigo_vivo = ataques(jogador, personagens, inimigo, amigo)
 
-    if(not inimigo_vivo):
+    if(inimigo_vivo):
         fases.game_over()
-    elif(not amigo_vivo):
+    elif(amigo_vivo):
         fases.fase_final()
 
 
@@ -69,8 +69,62 @@ def ataques(jogador, personagens, inimigo, amigo):
 
         tela_infos(jogador, personagens)
     
-    return amigo_vivo, inimigo_vivo
+    if(inimigo_vivo):
+        fases.game_over()
+    elif(amigo_vivo):
+        fases.encerramento()
+    
+    
+
+
+
+# def luta_final(jogador, personagens):
+    
+#     amigo_vivo = True
+#     inimigo_vivo = True
+#     estado = 0
+
+#     while(amigo_vivo and inimigo_vivo):
+
+#         if(jogador['Vida'] <= 0 and personagens[1]['Vida'] <= 0):
+#             amigo_vivo = False
+        
+#         if(personagens[0]['Vida'] <= 0):
+#             inimigo_vivo = False
+
+#         if(jogador['Vida'] > 0):
+#             if(estado == 0):
+#                 if(personagens[0]['Vida'] >= 0):
+#                     personagens[0]['Vida'] = personagens[0]['Vida'] - round(jogador['Dano']*random.uniform(0, 1))
+#         estado = 1
+
+#         if(estado == 1):
+#             if(personagens[1]['Vida'] >= 0):
+#                 personagens[1]['Vida'] = personagens[1]['Vida'] - round(personagens[0]['Dano']*random.uniform(0, 1))
+#             if(jogador['Vida'] >= 0):
+#                 jogador['Vida'] = jogador['Vida'] - round(personagens[0]['Dano']*random.uniform(0, 1))
+#         estado = 2
+
+        
+#         if(estado == 2):
+#             if(personagens[1]['Vida'] >= 0):
+#                 if(personagens[0]['Vida'] >= 0):
+#                     personagens[0]['Vida'] = personagens[0]['Vida'] - round(personagens[1]['Danos']*random.uniform(0, 1))
+#         estado = 0
+
+#         tela_final(jogador, personagens)
+
+#     return amigo_vivo, inimigo_vivo
  
+# def tela_final():
+#     print("Amigos: ")
+#     print("Nome: {}   {}". format(jogador['Nome'],personagens[1]['Nome']))
+#     print("Vida: {}   {}\n". format(jogador['Vida'],personagens[1]['Vida']))
+
+#     print("Chefão: ")
+#     print("Nome: {}". format(personagens[0]['Nome']))
+#     print("Vida: {}\n". format(personagens[0]['Vida']))
+
 
 
 if(__name__ == "__main__"):

@@ -3,7 +3,7 @@ import coleta_infos
 def tela_inicial():
 
     print("*******************************")
-    print("*********NOME DO JOGO**********")
+    print("*************LOST**************")
     print("*******************************")
 
     print("\n(1)-Começar\n(2)-Sair\n")

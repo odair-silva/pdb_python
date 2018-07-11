@@ -1,6 +1,7 @@
 import random
 import coleta_infos
 import luta
+import tela_inicial
 
 def fase1(jogador, personagens):
 
@@ -67,10 +68,15 @@ def fase3_2(jogador, personagens):
 
 def game_over():
     print("FIM DO JOGO!")
-    quit()
+    tela_inicial.tela_inicial()
 
 def fase_final():
     print("FASE FINAL!")
+    luta.luta_final()
+
+def encerramento():
+    print("ACABOU!")
+    tela_inicial.tela_inicial()
 
 if(__name__ == "__main__"):
     fase1(jogador, personagens)
