@@ -1,0 +1,310 @@
+C:\Users\odair.silva_BOLS\Documents\Odair\pdb-python>git diff master stash@{0}
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+     #pega os nomes dos NPCs do txt
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+     #pega os nomes dos NPCs do txt
+     npcs = importa_NPCs()
+-    #cria atributos dos personagens
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+     #pega os nomes dos NPCs do txt
+     npcs = importa_NPCs()
+-    #cria atributos dos personagens
++    #cria atributos dos personagens1
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+     #pega os nomes dos NPCs do txt
+     npcs = importa_NPCs()
+-    #cria atributos dos personagens
++    #cria atributos dos personagens1
+     vida, dano = att_NPCs(npcs)
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+     #pega os nomes dos NPCs do txt
+     npcs = importa_NPCs()
+-    #cria atributos dos personagens
++    #cria atributos dos personagens1
+     vida, dano = att_NPCs(npcs)
+     #cria o dicionario relacionando as infos dos NPCs e seus atributos
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+     #pega os nomes dos NPCs do txt
+     npcs = importa_NPCs()
+-    #cria atributos dos personagens
++    #cria atributos dos personagens1
+     vida, dano = att_NPCs(npcs)
+     #cria o dicionario relacionando as infos dos NPCs e seus atributos
+     personagens_definidos = dict_NPCs(npcs, vida, dano)
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+     #pega os nomes dos NPCs do txt
+     npcs = importa_NPCs()
+-    #cria atributos dos personagens
++    #cria atributos dos personagens1
+     vida, dano = att_NPCs(npcs)
+     #cria o dicionario relacionando as infos dos NPCs e seus atributos
+     personagens_definidos = dict_NPCs(npcs, vida, dano)
+@@ -46,9 +46,9 @@ def att_NPCs(npcs):
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+     #pega os nomes dos NPCs do txt
+     npcs = importa_NPCs()
+-    #cria atributos dos personagens
++    #cria atributos dos personagens1
+     vida, dano = att_NPCs(npcs)
+     #cria o dicionario relacionando as infos dos NPCs e seus atributos
+     personagens_definidos = dict_NPCs(npcs, vida, dano)
+@@ -46,9 +46,9 @@ def att_NPCs(npcs):
+     vida = []
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+     #pega os nomes dos NPCs do txt
+     npcs = importa_NPCs()
+-    #cria atributos dos personagens
++    #cria atributos dos personagens1
+     vida, dano = att_NPCs(npcs)
+     #cria o dicionario relacionando as infos dos NPCs e seus atributos
+     personagens_definidos = dict_NPCs(npcs, vida, dano)
+@@ -46,9 +46,9 @@ def att_NPCs(npcs):
+     vida = []
+     dano = []
+:...skipping...
+diff --git a/003.PNG b/003.PNG
+new file mode 100644
+index 0000000..d5f2ebc
+Binary files /dev/null and b/003.PNG differ
+diff --git a/__pycache__/coleta_infos.cpython-37.pyc b/__pycache__/coleta_infos.cpython-37.pyc
+index eeeae27..841958a 100644
+Binary files a/__pycache__/coleta_infos.cpython-37.pyc and b/__pycache__/coleta_infos.cpython-37.pyc differ
+diff --git a/__pycache__/fases.cpython-37.pyc b/__pycache__/fases.cpython-37.pyc
+index ac2ae99..3a8016a 100644
+Binary files a/__pycache__/fases.cpython-37.pyc and b/__pycache__/fases.cpython-37.pyc differ
+diff --git a/coleta_infos.py b/coleta_infos.py
+index 42171f0..48ceb8f 100644
+--- a/coleta_infos.py
++++ b/coleta_infos.py
+@@ -6,7 +6,7 @@ def coleta_infos():
+
+     #pega os nomes dos NPCs do txt
+     npcs = importa_NPCs()
+-    #cria atributos dos personagens
++    #cria atributos dos personagens1
+     vida, dano = att_NPCs(npcs)
+     #cria o dicionario relacionando as infos dos NPCs e seus atributos
+     personagens_definidos = dict_NPCs(npcs, vida, dano)
+@@ -46,9 +46,9 @@ def att_NPCs(npcs):
+     vida = []
+     dano = []
+     for att in npcs:
+:
