@@ -52,12 +52,16 @@ def fase3_1(jogador, personagens):
     print("     Nesse momento {} e {} riem da sua covardia e isso te afeta.". format(personagens[2]['Nome'], personagens[3]['Nome']))
     print("     Você então percebe que não tem o que fazer e começa a luta.")
 
-    luta.lutar(jogador, personagens)
+    luta.lutar(jogador, personagens, inimigo, amigo)
 
 def fase3_2(jogador, personagens):
+    inimigo = [2,3]
+    amigo = [1]
+    
     print("     AAAAAAAAAAAAAAAAAH! *você corre em direção ao inimigo para a surpresa de {}*". format(personagens[1]['Nome']))
 
-    luta.lutar(jogador, personagens)
+
+    luta.lutar(jogador, personagens, inimigo, amigo)
 
 if(__name__ == "__main__"):
     fase1(jogador, personagens)
