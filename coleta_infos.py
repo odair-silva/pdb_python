@@ -6,7 +6,7 @@ def coleta_infos():
     
     #pega os nomes dos NPCs do txt
     npcs = importa_NPCs()
-    #cria atributos dos personagens
+    #cria atributos dos personagens1
     vida, dano = att_NPCs(npcs)
     #cria o dicionario relacionando as infos dos NPCs e seus atributos
     personagens_definidos = dict_NPCs(npcs, vida, dano)
@@ -46,9 +46,9 @@ def att_NPCs(npcs):
     vida = []
     dano = []
     for att in npcs:
-        att = random.randrange(80,101)
+        att = int(random.randrange(80,101))
         vida.append(att)
-        att = random.randrange(5,11)
+        att = int(random.randrange(5,11))
         dano.append(att)
 
     return vida, dano

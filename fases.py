@@ -48,6 +48,8 @@ def fase2_2(jogador, personagens):
         i = fase3_2(jogador, personagens)
 
 def fase3_1(jogador, personagens):
+    inimigo = [2,3]
+    amigo = [1]
     print("     Covarde! Não vê que não tem para onde correr?! Diz {}. Entendo que tudo isso seja muito Cloverfield pra entender mas agora eu preciso da sua ajuda!". format(personagens[1]['Nome']))
     print("     Nesse momento {} e {} riem da sua covardia e isso te afeta.". format(personagens[2]['Nome'], personagens[3]['Nome']))
     print("     Você então percebe que não tem o que fazer e começa a luta.")
@@ -62,6 +64,13 @@ def fase3_2(jogador, personagens):
 
 
     luta.lutar(jogador, personagens, inimigo, amigo)
+
+def game_over():
+    print("FIM DO JOGO!")
+    quit()
+
+def fase_final():
+    print("FASE FINAL!")
 
 if(__name__ == "__main__"):
     fase1(jogador, personagens)
